@@ -12,9 +12,9 @@ var foodS=0
 var a=0
 function preload()
 {
-  happycat=loadImage("/images/happycat.png")
-  madcat=loadImage("/images/angry cat.png")
-  fatcat=loadImage("/images/fatcat.png")
+  happycat=loadImage("images/happycat.png")
+  madcat=loadImage("images/angry cat.png")
+  fatcat=loadImage("images/fatcat.png")
 }
 
 function setup() {
