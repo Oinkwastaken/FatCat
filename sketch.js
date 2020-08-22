@@ -15,6 +15,7 @@ var a=0
 var milk
 var button1
 var button
+var milkImg
 function preload()
 {
   happycat=loadImage("images/happycat.png")
@@ -74,14 +75,12 @@ button.mousePressed(function(){
    
   }
   text("you have "+ foodS+ " food left",100,100)
+  
+  
   drawSprites();
   a=a-0.01
-  milk.display()
-  milk.display()
-  milk.display()
-  
 }
-
+  
 function readStock(data){
   foodS=data.val()
 }
